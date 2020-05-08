@@ -1,0 +1,149 @@
+*{
+  margin:0;
+  padding:0;
+  font-family:'나눔 고딕','NanumGothic','맑은 고딕',Gothic;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+
+body{
+  width:960px;
+  text-align: center;
+  background-color: #E6E6E6;
+}
+body.page-wrapper{
+  background-color:#FFFFFF
+  margin-top:40px;
+  margin-right:0px;
+  margin-bottom:40px;
+  margin-left:0px;
+  border-radius: 5px;
+
+}
+
+Header.main-header{
+  padding-top:40px;
+  padding-right: 50px;
+  padding-bottom: 40px;
+  padding-left: 50px;
+}
+
+Header.master-title{
+  font-size: 30px;
+  color:#181818;
+}
+Header.master-discription{
+  font-size: 15px;
+  color:#383838;
+  font-weight:500;
+}
+
+nav.main-navigation{
+  border-top: 1px solid #C8C8C8;
+  border-bottom: 1px solid #C8C8C8;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  height:40px;
+}
+
+nav.outer-menu-item{
+  float: left;
+}
+.menu-title{
+  display:block;
+  height:30px;
+  text-align: center;
+  padding-top: 5px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  color:#000000
+
+}
+
+main.content{
+  overflow: hidden;
+}
+
+.main-section{
+  float:left;
+  width:710px;
+}
+
+.main-aside{
+  float:right;
+  width:200px;
+}
+
+article{
+  padding-top: 0px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  border-width:1px solid #C8C8C8;
+
+}
+
+.article-header{
+  padding-top: 20px;
+  padding-right: 0px;
+  padding-bottom: 20px;
+  padding-left: 0px;
+}
+
+.article-title{
+  font-size: 25px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+  font-weight:500;
+}
+
+.article-data{
+  font-size: 13px;
+}
+
+.article-body{
+  font-size: 14px;
+}
+
+img[alt="Sejong"]{
+  width:280px;
+  height:280px;
+}
+
+img[alt="Datascience"]{
+  width: 430px;
+  height: 280px;
+
+}
+
+.aside-left{
+  padding-top: 10px;
+  padding-right: 0;
+  padding-bottom: 30px;
+  padding-left: 0;
+}
+
+aside.h3{
+  font-size: 15px;
+  font-weight:600;
+}
+aside.a{
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 8px;
+}
+
+footer{
+  font-size: 10px;
+  color:#666666
+}
